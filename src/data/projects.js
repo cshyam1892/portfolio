@@ -12,7 +12,7 @@ const projects = [
 		role: 'Hobby Project',
 		weekDuration: 'Ongoing 2',
 		technologies1: ['Laravel'],
-		technologies2: ['SQL']
+		technologies2: ['MySQL']
 	},
 ];
 
