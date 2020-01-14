@@ -62,7 +62,7 @@ const AboutMe = () => {
 									<span>▹</span> Laravel 
 								</li>
 								<li>
-									<span>▹</span> SQL 
+									<span>▹</span> MySQL 
 								</li>
 							</ul>
 						</section>
