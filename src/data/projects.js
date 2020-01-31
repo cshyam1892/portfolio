@@ -6,7 +6,7 @@ const projects = [
 		title: 'RARA Hotel Website ',
 		description:
 			'A full-fledged Hotel website where you can book hotel rooms if available, send message, compare prices, etc.',
-		repoLink: 'https://github.com/cshyam1892/RARAHOTELSITE',
+		repoLink: 'https://github.com/cshyam1892/RARAHOTEL',
 		deployLink: 'https://000webhost.com/',
 		image: one,
 		role: 'Hobby Project',
