@@ -14,8 +14,8 @@ const AboutMe = () => {
 							<span>01. </span>About Me
 						</h2>
 						<p>
-							I'm a 25-year-old computer science engineer, originally from Biratnagar,
-							who has a passion for building and experimenting with different
+							Computer science engineer looking for challenging problems to solve. 
+		          Originally from Biratnagar, who has a passion for building and experimenting with different
 							web technologies. I like to design and build smart, eye-catching
 							and pixel-perfect user interfaces with robust functionalities.
 						</p>
