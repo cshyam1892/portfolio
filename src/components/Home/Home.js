@@ -15,9 +15,9 @@ const Home = () => {
 						<span>
 							<b>Computer Science Engineer</b>
 						</span>{' '}
-						and Web design enthusiast based in Biratnagar, Nepal (but open to new
+						and Web design enthusiast based in Hamilton, New Zealand(but open to new
 						adventures!) My areas of expertise are PHP, JavaScript, Basic UI Design,
-	          and Test-Driven Development.
+	          and Test-Driven Development. CV for New Zealand Jobs <a href='https://drive.google.com/file/d/12oEqmkMey-zVX1eGB9SST0GV2OrJN9Bv/view?usp=sharing'>CV</a>.
 					</p>
 					<div>
 						<Fade bottom cascade delay={800}>
