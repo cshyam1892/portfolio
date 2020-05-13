@@ -15,7 +15,7 @@ const AboutMe = () => {
 						</h2>
 						<p>
 							Computer science engineer looking for challenging problems to solve. 
-		          Originally from Biratnagar, who has a passion for building and experimenting with different
+		          Originally from Biratnagar, Nepal, who has a passion for building and experimenting with different
 							web technologies. I like to design and build smart, eye-catching
 							and pixel-perfect user interfaces with robust functionalities.
 						</p>
