@@ -17,7 +17,7 @@ const Home = () => {
 						</span>{' '}
 						and Web design enthusiast based in Hamilton, New Zealand(but open to new
 						adventures!) My areas of expertise are PHP, JavaScript, Basic UI Design,
-	          and Test-Driven Development. CV for New Zealand Jobs: <a target="_blank" href="https://drive.google.com/file/d/12oEqmkMey-zVX1eGB9SST0GV2OrJN9Bv/view?usp=sharing">CV</a>.
+	          and Test-Driven Development. 
 					</p>
 					<div>
 						<Fade bottom cascade delay={800}>
