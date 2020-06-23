@@ -45,7 +45,7 @@ const AboutMe = () => {
 						<section className='skills'>
 							<ul>
 								<li>
-									<span>▹</span> JavaScript <span className='es6'>(ES6+)</span>
+									<span>▹</span> JavaScript <span class="es6">(ES6+)</span>
 								</li>
 								<li>
 									<span>▹</span> React  
@@ -55,9 +55,6 @@ const AboutMe = () => {
 								</li>
 							</ul>
 							<ul>
-								<li>
-									<span>▹</span> Node.js
-								</li>
 								<li>
 									<span>▹</span> Laravel 
 								</li>
