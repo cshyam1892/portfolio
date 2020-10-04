@@ -8,6 +8,7 @@ const ProjectCard = project => {
 		description,
 		technologies1,
 		technologies2,
+		technologies3,
 		repoLink,
 		deployLink,
 		weekDuration,

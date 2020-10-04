@@ -61,6 +61,9 @@ const AboutMe = () => {
 								<li>
 									<span>▹</span> MySQL 
 								</li>
+								<li>
+									<span>▹</span> Python 
+								</li>
 							</ul>
 						</section>
 					</section>
