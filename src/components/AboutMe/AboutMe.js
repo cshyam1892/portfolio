@@ -14,32 +14,7 @@ const AboutMe = () => {
 							<span>01. </span>About Me
 						</h2>
 						<p>
-							Computer science engineer looking for challenging problems to solve. 
-		          Originally from Biratnagar, Nepal, who has a passion for building and experimenting with different
-							web technologies. I like to design and build smart, eye-catching
-							and pixel-perfect user interfaces with robust functionalities.
-						</p>
-						<p>
-							Shortly after graduating from{' '}
-							<a
-								href='https://www.giet.ac.in/'
-								target='_blank'
-								rel='noopener noreferrer'
-								className='hyperlink'>
-							  Giet College	
-							</a>
-							, I worked as an IT Technician
-							at{' '}
-							<a
-								href='http://kshitiz.edu.np/'
-								target='_blank'
-								rel='noopener noreferrer'
-								className='hyperlink'>
-							  Birat Kshitiz College	
-							</a>{' '}
-							where I worked on fast-paced and diverse team for nearly 2 years on
-							a wide palette of frameworks and languages in projects that pushed
-							myself on a daily basis.
+	    Computer science engineer looking for challenging problems to solve. I love to learn, build, and experiment with different web technologies. Spend most of my time looking at the screen :) 
 						</p>
 						<p>Here are a few technologies I've been working with recently:</p>
 						<section className='skills'>
@@ -48,21 +23,21 @@ const AboutMe = () => {
 									<span>▹</span> JavaScript <span class="es6">(ES6+)</span>
 								</li>
 								<li>
-									<span>▹</span> React  
-								</li>
-								<li>
 									<span>▹</span> PHP  
 								</li>
-							</ul>
-							<ul>
 								<li>
 									<span>▹</span> Laravel 
 								</li>
+							</ul>
+							<ul>
 								<li>
 									<span>▹</span> MySQL 
 								</li>
 								<li>
 									<span>▹</span> Python 
+								</li>
+								<li>
+									<span>▹</span> Selenium 
 								</li>
 							</ul>
 						</section>

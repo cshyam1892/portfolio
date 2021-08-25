@@ -1,12 +1,11 @@
 const jobs = [
 	{
 		id: 0,
-		title: 'Lead Developer',
+		title: 'Junior Developer',
 		company: 'The Gig',
 		location: 'Hamilton, New Zealand',
-		dateRange: 'July 2020 - Ongoing',
+		dateRange: 'July 2020 - Nov 2020',
 		url: 'https://thegigwebsite.web.app/', description: [
-			'Team management, Sprint management, Standard setting, Proposing and shepherding changes.',
 			'Developing and Testing code with documentation in each sprint.'
 		]
 	},
