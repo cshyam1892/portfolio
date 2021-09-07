@@ -24,7 +24,7 @@ const Home = () => {
 								<button className='contact-button'>Get In Touch</button>
 							</a>
 							<a
-								href='https://drive.google.com/file/d/1xQNsS29HQ6w4t20icgZSK68_Go6xwViA/view?usp=sharing'
+								href='https://drive.google.com/file/d/1dGqzfN-uxrF4Ta4khNwZXv4MhFyZWAiz/view?usp=sharing'
 								target='_blank'
 								rel='noopener noreferrer'
 								className='button-link'>
