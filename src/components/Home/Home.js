@@ -15,8 +15,8 @@ const Home = () => {
 						<span>
 							<b>Computer Science Engineer</b>
 						</span>{' '}
-						based in Hamilton, New Zealand.
-    						I'm curious and passionate about web technolgoies, anything Unix-like, and football(huge fan of Man Utd!). 
+						based in Auckland, New Zealand.
+    						I'm curious and passionate about web technolgoies, anything Unix-like, and football (huge fan of Man Utd!). 
 					</p>
 					<div>
 						<Fade bottom cascade delay={800}>
@@ -24,7 +24,7 @@ const Home = () => {
 								<button className='contact-button'>Get In Touch</button>
 							</a>
 							<a
-								href='https://drive.google.com/file/d/1dGqzfN-uxrF4Ta4khNwZXv4MhFyZWAiz/view?usp=sharing'
+								href='https://drive.google.com/file/d/1IC0XkMztaguMRc1SoPTCIZRsHlTHen--/view?usp=drive_link'
 								target='_blank'
 								rel='noopener noreferrer'
 								className='button-link'>
