@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://shyam.store/static/css/main.b9b1670e.css",
-    "main.js": "https://shyam.store/static/js/main.c9fd5d22.js",
-    "static/media/one.png": "https://shyam.store/static/media/one.8a0b7b83d9a9e146b2af.png",
-    "static/media/three.png": "https://shyam.store/static/media/three.5d4f22eaad3cd2027611.png",
-    "static/media/headshot.jpg": "https://shyam.store/static/media/headshot.8dd5b5eb02534e669027.jpg",
-    "index.html": "https://shyam.store/index.html",
-    "main.b9b1670e.css.map": "https://shyam.store/static/css/main.b9b1670e.css.map",
-    "main.c9fd5d22.js.map": "https://shyam.store/static/js/main.c9fd5d22.js.map"
+    "main.css": "/portfolio/static/css/main.b9b1670e.css",
+    "main.js": "/portfolio/static/js/main.6446fcf8.js",
+    "static/media/one.png": "/portfolio/static/media/one.8a0b7b83d9a9e146b2af.png",
+    "static/media/three.png": "/portfolio/static/media/three.5d4f22eaad3cd2027611.png",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.8dd5b5eb02534e669027.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.b9b1670e.css.map": "/portfolio/static/css/main.b9b1670e.css.map",
+    "main.6446fcf8.js.map": "/portfolio/static/js/main.6446fcf8.js.map"
   },
   "entrypoints": [
     "static/css/main.b9b1670e.css",
-    "static/js/main.c9fd5d22.js"
+    "static/js/main.6446fcf8.js"
   ]
 }
