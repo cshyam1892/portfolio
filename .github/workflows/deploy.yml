@@ -16,7 +16,7 @@ jobs:
           node-version: '16' 
 
       - name: Install Dependencies 📦
-        run: npm ci # Uses package-lock.json for deterministic builds
+        run: npm ci --legacy-peer-deps 
 
       - name: Build 🏗️
         run: npm run build
