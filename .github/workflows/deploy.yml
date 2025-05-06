@@ -22,10 +22,29 @@ jobs:
         run: npm run build
         env:
           CI: false 
-          PUBLIC_URL: "https://shyam.store"          
+
+      - name: Fix Asset Paths If Needed
+        run: |
+          echo "Checking if paths need fixing..."
+          if grep -q "/portfolio/" build/index.html; then
+            echo "Found '/portfolio/' in paths, updating..."
+            sed -i 's|/portfolio/|/|g' build/index.html
+            echo "Paths updated in index.html"
+          else
+            echo "No '/portfolio/' paths found in index.html"
+          fi   
 
       - name: Create CNAME 📝
         run: echo "shyam.store" > ./build/CNAME
+
+      - name: Verify Paths in Build
+        run: |
+          echo "Checking index.html paths..."
+          grep -o '/[^"]*\.js\|/[^"]*\.css' build/index.html
+          echo "Contents of build directory:"
+          ls -la build/
+          echo "Contents of static directory:"
+          ls -la build/static/ || echo "No static directory found"
 
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
