@@ -22,6 +22,7 @@ jobs:
         run: npm run build
         env:
           CI: false 
+          PUBLIC_URL: "https://shyam.store"          
 
       - name: Create CNAME 📝
         run: echo "shyam.store" > ./build/CNAME
