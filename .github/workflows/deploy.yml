@@ -1,11 +1,16 @@
 name: Build and Deploy
+
 on:
   push:
-    branches: [ master ] 
+    branches: [ master ]
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -13,42 +18,28 @@ jobs:
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v3
         with:
-          node-version: '16' 
+          node-version: '18'
 
       - name: Install Dependencies 📦
-        run: npm ci --legacy-peer-deps 
+        run: npm ci --legacy-peer-deps
 
       - name: Build 🏗️
         run: npm run build
         env:
-          CI: false 
+          CI: false
 
-      - name: Fix Asset Paths If Needed
+      - name: Verify Build Output 🔍
         run: |
-          echo "Checking if paths need fixing..."
-          if grep -q "/portfolio/" build/index.html; then
-            echo "Found '/portfolio/' in paths, updating..."
-            sed -i 's|/portfolio/|/|g' build/index.html
-            echo "Paths updated in index.html"
-          else
-            echo "No '/portfolio/' paths found in index.html"
-          fi   
-
-      - name: Create CNAME 📝
-        run: echo "shyam.store" > ./build/CNAME
-
-      - name: Verify Paths in Build
-        run: |
-          echo "Checking index.html paths..."
-          grep -o '/[^"]*\.js\|/[^"]*\.css' build/index.html
-          echo "Contents of build directory:"
+          echo "Checking asset paths in index.html..."
+          grep -o '/portfolio/[^"]*\.js\|/portfolio/[^"]*\.css' build/index.html || echo "⚠️ No /portfolio paths found"
+          echo "Listing build files:"
           ls -la build/
-          echo "Contents of static directory:"
+          echo "Listing static files:"
           ls -la build/static/ || echo "No static directory found"
 
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build 
           branch: gh-pages
-          clean: true 
+          folder: build
+          clean: true
